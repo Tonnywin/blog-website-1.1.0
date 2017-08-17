@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="baidu-site-verification" content="hLQKDe6U4y" />
+    <meta name="Keywords" content="个人博客,文朝希,tonnywin,前端博客,朝希空间" />
+    <meta name="Description" content="Tonnywin的个人网站，记录点滴，分享一切~" />
+    <title>文朝希 · Tonnywin</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/105201/46647/596c656bf629da05c0298698.css' rel='stylesheet' type='text/css' />
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/105201/46647/596cc1ddf629da05c02986f5.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="navbar">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#hd_nav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand">
+                        <a href="javascript:;" data-hash="index" title="首页"><img src="src/images/logo.png"
+                                                                                 alt="朝希空间" title="朝希空间"></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="hd_nav">
+                    <ul>
+                        <li><a href="javascript:;" data-hash="myIntro">关于我</a></li>
+                        <li><a href="javascript:;" data-hash="morePro">github仓库</a></li>
+                        <li><a href="javascript:;" data-hash="myView">视野</a></li>
+                        <li><a href="http://blog.toonywin.club/">个人博客</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contentBox">
+    <div data-hash="index" class="contentDiv">
+        <div class="container">
+            <div class="row">
+                <div class="mymotto">
+                    <h1 class="mottoTitle" style="font-family:'stfajcgangbixsbf495727019af1';">寄语</h1>
+                    <p class="mottoContent" style="font-family:'stfajcgangbixsbf5fe903d19af1';">每个人都有属于自己的一片森林，迷失的人迷失了，相逢的人会再相逢。--《挪威的森林》</p>
+                </div>
+            </div>
+        </div>
+        <!--[if !IE]><!-->
+        <div class="container viewPart">
+            <div class="row">
+                <div class="dayView">
+                    <div class="advice_hd"><img src="src/images/viewHd.png" alt="每日一览"></div>
+                    <ul class="viewTabs clearfix">
+                        <li class="techTab active" data-target=".techContent">技术栏</li>
+                        <li class="videoTab" data-target=".videoContent">休闲栏</li>
+                    </ul>
+                    <div class="viewContents">
+                        <div class="techContent">
+                            <ul id="myTechNews"></ul>
+                            <div class="techMore" data-target="#myTechNews">想看更多</div>
+                        </div>
+                        <div class="videoContent">
+                            <ul id="videoItems" class="clearfix"></ul>
+                            <div class="bringins-content" id="videoIframe">
+                                <iframe src="" height="100%" width="100%"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<![endif]-->
+    </div>
+    <div data-hash="myIntro" class="contentDiv">
+        <div class="myIntroduce">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-7 col-xs-12">
+                        <div class="introContent">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="introduce">
+                                        <h1>主人简介</h1>
+                                        <p>
+                                            94年生，毕业于陕西科技大学。理工男，为人放荡不羁，崇尚自由，追求美与艺术，有一定的完美主义倾向。22岁前懵懂无知，遂一事无成。22岁后有所求，立志苦拼，虽仍落魄，却不因此而轻言放弃，而轻生自卑，而不思进取。
+                                            宁欺白须公,莫欺少年穷，终须有日龙穿凤，唔信一世裤穿窿。在此共勉~</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="intrests">
+                                        <h1>兴趣爱好</h1>
+                                        <div class="intrestSharing">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="intrestImg">
+                                                        <img src="src/images/comic.jpg" alt="动漫" data-target="comic">
+                                                    </div>
+                                                    <p>动漫</p>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="intrestImg">
+                                                        <img src="src/images/movie.jpg" alt="电影" data-target="movie">
+                                                    </div>
+                                                    <p>电影</p>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="intrestImg">
+                                                        <img src="src/images/readpdf.jpg" alt="阅读" data-target="readpdf">
+                                                    </div>
+                                                    <p>阅读</p>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="intrestImg">
+                                                        <img src="src/images/frontendpdf.jpg" alt="编程"
+                                                             data-target="frontendpdf">
+                                                    </div>
+                                                    <p>编程</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="skills">
+                                        <h1>GET技能</h1>
+                                        <div class="skillsSharing">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="skillImg">
+                                                        <img src="src/images/ps.jpg" alt="PS" data-target="ps">
+                                                    </div>
+                                                    <p>PS</p>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="skillImg">
+                                                        <img src="src/images/ppt.jpg" alt="PPT" data-target="ppt">
+                                                    </div>
+                                                    <p>PPT</p>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="skillImg">
+                                                        <img src="src/images/finacing.jpg" alt="理财"
+                                                             data-target="finacing">
+                                                    </div>
+                                                    <p>理财</p>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="skillImg">
+                                                        <img src="src/images/life.jpg" alt="生活" data-target="life">
+                                                    </div>
+                                                    <p>生活</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="introRemind">
+                            <p>PS:点击兴趣爱好以及GET技能里的图片有不定期更新的福利哦~~~</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-5 col-xs-12">
+                        <div class="mediaPlugin">
+                            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=450
+                                    src="http://music.163.com/outchain/player?type=0&id=783581784&auto=0&height=530"></iframe>
+                            <p class="line"></p>
+                            <iframe style="padding:9px;" width="100%" height="550" class="share_self" frameborder="0"
+                                    scrolling="no"
+                                    src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=7&isTitle=1&noborder=0&isWeibo=1&isFans=0&uid=3015100957&verifier=655ac839&colors=cd8f5a,fff,666666,666666,cd8f5a&dpc=1"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="introPopup">
+            <div class="introPupList">
+                <svg class="introPopClose" width="25" height="25" style="position: absolute; right: 10%; top: 25px;">
+                    <path d="M0 0 L25 25 Z M25 0 L0 25 Z" style="fill: white; stroke: white; stroke-width: 5px;"></path>
+                </svg>
+                <div class="introListCont">
+                    <ul class="introShareUl"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-hash="morePro" class="contentDiv">
+        <div class="githubProfile">
+            <div class="container">
+                <div class="row">
+                    <ul class="proList row"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-hash="myView" class="contentDiv">
+        <div class="personalView">
+            <div class="container">
+                <div class="row">
+                    <div class="read col-md-6 col-sm-12 col-xs-12">
+                        <h1>阅读</h1>
+                        <ul>
+                            <li><img src="src/images/viewOne.jpg" alt=""><a target="_blank"
+                                                                          href="http://www.wufazhuce.com/" rel="nofollow">one一个</a>
+                            </li>
+                            <li><img src="src/images/viewRead.jpg" alt=""><a target="_blank"
+                                                                           href="http://www.bilibili.com/video/av2395437" rel="nofollow">纪录片-书店里的影像诗</a>
+                            </li>
+                            <li><img src="src/images/viewYueshu.jpg" alt=""><a href="http://www.book618.com/" rel="nofollow">悦书坊</a></li>
+                        </ul>
+                    </div>
+                    <div class="design col-md-6 col-sm-12 col-xs-12">
+                        <h1>设计</h1>
+                        <ul>
+                            <li><img src="src/images/viewUisdc.jpg" alt=""><a target="_blank"
+                                                                            href="http://hao.uisdc.com/" rel="nofollow">设计师都会私藏的网址</a>
+                            </li>
+                            <li><img src="src/images/viewAwwwards.jpg" alt=""><a target="_blank"
+                                                                               href="https://www.awwwards.com/" rel="nofollow">展示最前沿的Web设计</a>
+                            </li>
+                            <li><img src="src/images/viewdribbble.jpg" alt=""><a target="_blank"
+                                                                               href="https://dribbble.com/" rel="nofollow">设计师与灵感的聚集地</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copywriting col-md-6 col-sm-12 col-xs-12">
+                        <h1>文案策划</h1>
+                        <ul>
+                            <li><img src="src/images/viewGuang.jpg" alt=""><a target="_blank"
+                                                                            href="http://www.adquan.com/">广告门</a></li>
+                            <li><img src="src/images/viewTopys.jpg" alt=""><a target="_blank" href="http://www.topys.cn/" rel="nofollow">全球顶尖创意分享平台</a>
+                            </li>
+                            <li><img src="src/images/viewPitchina.jpg" alt=""><a target="_blank"
+                                                                               href="http://www.pitchina.com.cn/" rel="nofollow">大创意
+                                有创意</a></li>
+                        </ul>
+                    </div>
+                    <div class="business col-md-6 col-sm-12 col-xs-12">
+                        <h1>商业</h1>
+                        <ul>
+                            <li><img src="src/images/view21cbr.jpg" alt=""><a target="_blank" href="http://21cbr.com/" rel="nofollow">21世纪商业评论</a>
+                            </li>
+                            <li><img src="src/images/viewMckinsey.jpg" alt=""><a target="_blank"
+                                                                               href="http://mckinseychina.com/" rel="nofollow">麦肯锡中国</a>
+                            </li>
+                            <li><img src="src/images/viewMbalib.jpg" alt=""><a target="_blank"
+                                                                             href="http://wiki.mbalib.com/wiki/" rel="nofollow">智库百科</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="otherblog col-md-6 col-sm-12 col-xs-12">
+                        <h1>博客</h1>
+                        <ul class="blogs"></ul>
+                    </div>
+                    <div class="zhihu col-md-6 col-sm-12 col-xs-12">
+                        <h1>知乎</h1>
+                        <ul class="zhihuTopics"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="msgBoard">
+    <div class="container">
+        <div class="row">
+            <div class="advice_hd"><img src="src/images/adviceHd.png" alt="留言板"></div>
+            <p class="advice_ths">在这里可以留下你宝贵的感言，疑惑或建议，也可以直接和我交流联系~</p>
+            <div class="addAdvice">
+                <h3>添加留言</h3>
+                <div class="advicetext">
+                    <div class="inputBox">
+                        <textarea name="advices" autofocus id="adviceInput" cols="30" rows="10"
+                                  placeholder="提示：输入完+回车即可添加您的宝贵建议"></textarea>
+                    </div>
+                    <h6>最多输入<span>140</span>个字，还可输入<span id="word">140</span>个</h6>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-sm-8 col-xs-6">
+                        <input type="text" class="userName" placeholder="您的名称（可不写）"/>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="addAdviceBtn">添加</div>
+                    </div>
+                </div>
+            </div>
+            <div class="adviceBox">
+                <h3>留言列表</h3>
+                <div class="scrollLine">
+                    <div class="scrollBtn" data-target="#listBox"></div>
+                </div>
+                <div class="adviceList">
+                    <div id="listBox"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="contact_pic">
+        <img src="src/images/contactspring.png" alt="contact me?" class="spring">
+        <img src="src/images/contactsummer.png" alt="contact me?" class="summer">
+        <img src="src/images/contactautumn.png" alt="contact me?" class="autumn">
+        <img src="src/images/contactwinter.png" alt="contact me?" class="winter">
+    </div>
+    <div class="contact_con">
+        <div class="con_box">
+            <div class="contact_close">
+                <svg width="25" height="25">
+                    <path d="M0 0 L16 16 Z M16 0 L0 16 Z"
+                          style="fill: white; stroke: rgba(255, 255, 255,0.8); stroke-width: 5px;"></path>
+                </svg>
+            </div>
+            <div class="content">
+                <div class="phone">
+                    <p>
+                        <img src="src/images/phone.png" alt=""><span>13638430047</span></p>
+                    <button class="btn hidden-xs" data-clipboard-text="13638430047">点我复制 </button>
+                </div>
+                <div class="mail">
+                    <p><img src="src/images/mail.png" alt=""><span>13638430047@163.com</span></p>
+                    <button class="btn hidden-xs" data-clipboard-text="13638430047@163.com">点我复制</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <p class="col-md-10 col-sm-8 col-xs-12">
+                <span>© 2017 Design by Tonnywin(文朝希)</span>
+            </p>
+            <p class="col-md-2 col-sm-4 col-xs-12">
+                <a target="_blank" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action">湘ICP备17012529号</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
+<script src="js/main.bundle.js"></script>
+<script type="text/javascript">
+    function foo(json) {
+        var proList = $(".proList");
+        for(var i=0;i<json.data.length;i++){
+            var oLi = $("<li class='col-md-6 col-sm-12 col-xs-12'></li>");
+            var oDiv = $("<div class='gitpro'></div>");
+            var dotBg;
+            switch (json.data[i].language){
+                case "HTML":dotBg = "htmlColor";break;
+                case "CSS":dotBg = "cssColor";break;
+                case "JavaScript":dotBg = "jsColor";break;
+                default:break;
+            }
+            if(json.data[i].fork){
+                oDiv.html('<a href="'+json.data[i].html_url+'" class="text-bold">'+json.data[i].name+'</a><p class="text-fork">非原创，引自他人作品</p><p class="text-explain">'+json.data[i].description+'</p><p class="text-type"><span class="text-dot '+dotBg+'"></span>&nbsp;'+json.data[i].language+' </p>');
+            }else{
+                oDiv.html('<a href="'+json.data[i].html_url+'" class="text-bold">'+json.data[i].name+'</a><p class="text-explain">'+json.data[i].description+'</p><p class="text-type"><span class="text-dot '+dotBg+'" ></span>&nbsp;'+json.data[i].language+' </p>');
+            }
+            oDiv.appendTo(oLi);
+            oLi.appendTo(proList);
+        }
+    }
+</script>
+<script src="https://api.github.com/users/Tonnywin/repos?callback=foo"></script>
+</body>
+</html>
+
+<!--//github仓库api-->
+<!--https://developer.github.com/v3/repos/#list-user-repositories-->
+<!--我自己举例-->
+<!--https://api.github.com/users/Tonnywin/repos?callback=foo-->
