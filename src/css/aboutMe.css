@@ -1,0 +1,156 @@
+.contentBox .contentDiv .myIntroduce .container{
+    border-radius: 26px;
+    padding:30px 30px 20px;
+    box-shadow: 0 0 20px #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.myIntroduce .introContent{
+    box-shadow: 0 0 16px #fff;
+    border-radius:16px;
+    padding:28px;
+    margin-bottom:20px;
+    background:rgba(26,26,26,0.1);
+}
+.myIntroduce .mediaPlugin{
+    box-shadow: 0 0 16px #fff;
+    border-radius:16px;
+    padding:4px;
+    background:rgba(26,26,26,0.1);
+}
+.myIntroduce .mediaPlugin p{
+    height:1px;
+    width:80%;
+    margin:16px auto;
+    background-color:rgba(255,255,255,0.6);
+}
+.myIntroduce .introduce{
+    padding-bottom:26px;
+    border-bottom:1px solid rgba(255,255,255,0.6);
+}
+.myIntroduce .introduce h1{
+    font: normal bold 20px/28px STHeiti;
+    padding-bottom: 14px;
+    color:rgba(255,255,255,0.8);
+    text-align: center;
+}
+.myIntroduce .introduce p{
+    border:2px solid rgba(255,255,255,0.5);
+    padding:16px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgba(255,255,255,0.9);
+    font:normal normal 16px/20px "微软雅黑";
+    color:rgba(255,255,255,0.8);
+    background-color:rgba(43,85,194,0.2);
+}
+.myIntroduce .intrests,.myIntroduce .skills{
+    margin-top:36px;
+    padding-bottom:26px;
+    border-bottom:1px solid rgba(255,255,255,0.6);
+}
+.myIntroduce .intrests h1,.myIntroduce .skills h1{
+    text-align: center;
+    font: normal bold 20px/28px STHeiti;
+    padding-bottom: 12px;
+    color:rgba(255,255,255,0.8);
+}
+.myIntroduce .intrests .intrestSharing,.myIntroduce .skills .skillsSharing{
+    margin-top:6px;
+}
+.myIntroduce .intrests .intrestSharing .intrestImg,.myIntroduce .skills .skillsSharing .skillImg{
+    border:2px solid rgba(255,255,255,0.5);
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.9);
+    padding:8px 0;
+    background-color:rgba(43,85,194,0.2);
+}
+.myIntroduce .intrests .intrestSharing .intrestImg img,.myIntroduce .skills .skillsSharing .skillImg img{
+    display:block;
+    cursor:pointer;
+    width:80%;
+    margin:0 auto;
+}
+.myIntroduce .intrests .intrestSharing p,.myIntroduce .skills .skillsSharing p{
+    color:rgba(255,255,255,0.8);
+    font:normal bold 16px/22px SimSun;
+    text-align: center;
+    margin:16px 0;
+}
+
+.myIntroduce .introRemind{
+    border-radius:16px;
+    box-shadow: 0 0 16px #fff;
+    padding:78px 28px;
+    margin-top:40px;
+    margin-bottom:20px;
+    background:rgba(26,26,26,0.1);
+}
+.myIntroduce .introRemind p{
+    font:normal normal 16px/16px SimSun;
+    color:rgba(255,255,255,0.8);
+    text-align: center;
+}
+
+#introPopup{
+    display:none;
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:rgba(26,26,26,0.8);
+    z-index:1000;
+    left:0;
+    top:0;
+    overflow-y: scroll;
+
+}
+#introPopup .introPupList{
+    margin:80px 10% 10% 10%;
+}
+#introPopup .introPupList .introPopClose{
+    cursor:pointer;
+}
+#introPopup .introPupList .introListCont{
+    z-index:1100;
+    border:2px solid #fff;
+    box-shadow: 0 0 16px rgba(0,190,255,0.7);
+    border-radius:16px;
+    font-size:20px;
+    color:#fff;
+    padding:28px;
+    background:#fff;
+}
+#introPopup .introShareUl{
+    width:90%;
+    margin:0 auto;
+
+}
+#introPopup .introShareUl li{
+    padding:10px 20px;
+    border-bottom: 1px solid rgba(0,190,255,0.7);
+    box-shadow: 0 0 26px rgba(0,190,255,0.7);
+    margin:26px 0;
+    border-radius: 16px;
+}
+
+#introPopup .introShareUl .introBox>a{
+    display:block;
+    text-decoration: underline;
+    margin-bottom:14px;
+    font:normal normal 18px/26px "微软雅黑";
+}
+#introPopup .introShareUl .introBox>p{
+    color:#000;
+}
+#introPopup .introShareUl .introBox>p>span{
+    font:normal normal 14px/20px "微软雅黑";
+}
+#introPopup .introShareUl .introBox>p>i{
+    font:normal normal 14px/20px "微软雅黑";
+    margin-right:18px;
+}
+
+
+
+/*<div class="introBox">*/
+/*<a >好莱坞最感</a><span>密码：</span><i>8888</i><span>更新时间：</span><i>2017-07-11 19:14:22</i>*/
+/*</div>*/

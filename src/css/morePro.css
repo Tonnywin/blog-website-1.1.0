@@ -1,0 +1,60 @@
+.contentBox .contentDiv .githubProfile .container{
+    border-radius: 26px;
+    padding-top:30px;
+    padding-bottom:20px;
+    box-shadow: 0 0 20px #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.githubProfile .proList .gitpro{
+    position:relative;
+    border:2px solid rgba(255,255,255,0.9);
+    box-shadow: 0 0 14px #fff;
+    border-radius:26px;
+    padding:4% 8%;
+    margin:0 10% 12% 10%;
+    background-color:rgba(255,255,255,0.6);
+    min-height:162px;
+}
+.githubProfile .proList .gitpro .text-bold{
+    font: bold 16px/18px 微软雅黑;
+    color:#0366d6;
+}
+.githubProfile .proList .gitpro .text-fork{
+    margin-top:8px;
+    color:#586069;
+    font:normal normal 12px/12px "微软雅黑";
+}
+.githubProfile .proList .gitpro .text-explain{
+    margin-top:24px;
+    min-height:50px;
+    color:#586069;
+    font:normal normal 12px/12px "微软雅黑";
+}
+
+.githubProfile .proList .gitpro .text-fork{
+    color:#586069;
+    font:normal normal 12px/12px "微软雅黑";
+}
+.githubProfile .proList .gitpro .text-type{
+    position:absolute;
+    bottom:6%;
+}
+.githubProfile .proList .gitpro .text-type span{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.cssColor{
+    background-color: #563d7c !important;
+}
+.htmlColor{
+    background-color: #e34c26 !important;
+}
+.jsColor{
+    background-color: #f1e05a !important;
+}

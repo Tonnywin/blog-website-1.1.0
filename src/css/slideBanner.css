@@ -1,0 +1,32 @@
+#mybanner .carousel-indicators{
+    bottom:6%;
+}
+#mybanner .carousel-indicators li{
+    border:2px solid rgba(255,255,255,0.8);
+    border-radius: 7px;
+    margin-left:8px;
+}
+#mybanner .carousel-indicators .active{
+    background:rgba(255,255,255,0.4);
+}
+#mybanner .carousel-inner .item{
+    width:100%;
+}
+#mybanner .carousel-inner .item img{
+    width:100%;
+}
+#mybanner .carousel-control{
+    height:8%;
+    width:8%;
+    top:42%;
+    background:none;
+}
+#mybanner .carousel-control img{
+    width:100%;
+}
+#mybanner .left{
+    left:0;
+}
+#mybanner .right{
+    right:0;
+}

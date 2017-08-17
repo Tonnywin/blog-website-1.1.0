@@ -1,0 +1,508 @@
+body{
+    transition: background-image 1.2s linear;
+    background-attachment: fixed;
+}
+.myIndexbg{
+    background-image: url(../images/myIndexbg.jpg);
+}
+.myIntrobg{
+    background-image: url(../images/myIntrobg.jpg);
+}
+.myViewbg{
+    background-image: url(../images/myViewbg.jpg);
+}
+.mymoreProbg{
+    background-image: url(../images/mymoreProbg.jpg);
+}
+
+textarea::-webkit-input-placeholder,input::-webkit-input-placeholder {
+    color: rgba(200,200,200,0.9);
+}
+textarea:-moz-placeholder,input:-moz-placeholder {
+    color: rgba(200,200,200,0.9);
+}
+textarea::-moz-placeholder,input::-moz-placeholder {
+    color: rgba(200,200,200,0.9);
+}
+textarea:-ms-input-placeholder,input:-ms-input-placeholder{
+    color: rgba(200,200,200,0.9);
+}
+
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+
+.header{
+    width:100%;
+    background:#262626;
+}
+.header .navbar{
+    margin-bottom:0;
+}
+.header .navbar .navbar-brand{
+    width:94px;
+    height:55px;
+    padding:0;
+    margin-top:5px;
+    margin-left:4px;
+}
+.header .navbar .navbar-brand img{
+    display:block;
+    width:100%;
+}
+.header .navbar .navbar-toggle{
+    margin-top:18px;
+}
+.header .navbar .navbar-toggle .icon-bar{
+    background:rgba(255,255,255,0.8 );
+}
+.header .navbar .navbar-collapse{
+    padding-right:28px;
+    padding-left:28px;
+}
+.header .navbar .navbar-collapse>ul{
+    float:right;
+}
+.header .navbar .navbar-collapse>ul>li{
+    float:left;
+    margin-left:50px;
+    margin-top:18px;
+    height:30px;
+    width:90px;
+    background-color:#262626;
+    border:2px solid rgba(255,255,255,0.8);
+    border-radius: 15px;
+    text-align: center;
+}
+.header .navbar .navbar-collapse>ul>li.active{
+    background:rgba(255,255,255,0.8);
+    border:2px solid #000;
+}
+.header .navbar .navbar-collapse>ul>li:first-child{
+    margin-left:0;
+}
+.header .navbar .navbar-collapse>ul>li>a{
+    display:block;
+    color:#fff;
+    font:normal bold 12px/26px "微软雅黑";
+    text-align: center;
+    text-decoration: none;
+}
+.header .navbar .navbar-collapse>ul>li.active a{
+    color:#000;
+}
+
+
+.mymotto{
+    padding:0 20px;
+    margin-top:30px;
+    transition: background,box-shadow,height 1s,0.5s,0.5s linear,linear,linear;
+}
+.mymotto h1{
+    display:none;
+    font:normal normal 80px/100px "微软雅黑";
+    color:#000;
+    text-align: center;
+    border-bottom:2px solid black;
+}
+.mottoBg{
+    box-shadow:0 0 20px #000;
+    border-radius: 16px;
+    background:url(../images/mottoBg.png);
+}
+.mottoContent{
+    padding-top:130px;
+    vertical-align: middle;
+    font:normal bold 80px/100px "微软雅黑";
+    color:#000;
+    transition:font,padding 0.5s,0.5s linear,linear;
+}
+
+.msgBoard{
+    margin-bottom:80px;
+}
+.msgBoard .container{
+    border-radius: 26px;
+    margin-top:30px;
+    padding-top:30px;
+    padding-bottom:80px;
+    box-shadow: 0 0 16px #fff;
+    transition: background 0.5s linear;
+}
+.msgBoard .advice_hd{
+    border-bottom:2px solid rgba(255,255,255,0.6);
+    padding-bottom:20px;
+    width:95%;
+    margin:0 auto;
+}
+.msgBoard .advice_hd img{
+    display:block;
+    width:133px;
+    margin:0 auto;
+}
+.msgBoard .advice_ths{
+    margin-top:36px;
+    margin-left:28px;
+    color:rgba(238,231,231,0.6);
+    font:normal normal 16px/20px "微软雅黑";
+}
+.msgBoard .addAdvice h3{
+    margin:50px 0 24px 28px;
+    font:normal bold 22px/24px SimSun;
+    color:rgba(255,255,255,0.8);
+}
+.msgBoard .addAdvice .advicetext{
+    padding:0 10%;
+    position:relative;
+}
+.msgBoard .addAdvice .inputBox{
+    width:100%;
+    padding:20px;
+    border:2px solid rgba(255,255,255,0.8);
+    border-radius:40px;
+}
+.msgBoard .addAdvice .inputBox textarea{
+    width:100%;
+    height:130px;
+    background:none;
+    text-indent: 36px;
+    font:normal normal 16px/30px "微软雅黑";
+    color:#fff;
+    border:none;
+    overflow-x: hidden;
+
+}
+.msgBoard .addAdvice .advicetext h6{
+    position:absolute;
+    bottom:10px;
+    right:13%;
+    font-family: SimSun;
+    color:#000;
+}
+.msgBoard .addAdvice .advicetext h6 span{
+    color:rgba(255,255,255,0.8);
+    font-family: SimSun;
+}
+.msgBoard .addAdvice>.row{
+    padding:0 10%;
+}
+.msgBoard .addAdvice .userName{
+    float:right;
+    margin-top: 21px;
+    height:32px;
+    width:120px;
+    border:2px solid rgba(255,255,255,0.8);
+    background:none;
+    border-radius: 14px;
+    text-indent:8px;
+    font:normal normal 10px/32px "微软雅黑";
+    color:#fff;
+
+}
+.msgBoard .addAdvice .addAdviceBtn{
+    float:right;
+    height: 34px;
+    width: 120px;
+    background-color: rgba(255, 255, 255,0.2);
+    border: 2px solid rgba(255,255,255,0.9);
+    border-radius: 24px;
+    color: rgba(255,255,255,0.9);
+    font: normal normal 14px/34px 微软雅黑;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.adviceBox{
+    position:relative;
+    width:100%;
+}
+.adviceBox h3{
+    margin:50px 0 24px 28px;
+    font:normal bold 22px/24px SimSun;
+    color:rgba(255,255,255,0.8);
+}
+.adviceBox .scrollLine{
+    position:absolute;
+    right:4%;
+    bottom:20px;
+    width:12px;
+    height:360px;
+    border:2px solid rgba(255,255,255,0.8);
+    border-radius:6px;
+    z-index:100;
+}
+.adviceBox .scrollLine  .scrollBtn{
+    position:absolute;
+    width:16px;
+    height:30px;
+    border-radius:10px;
+    background:#fff;
+    cursor:pointer;
+    top:0;
+    left:-4px;
+}
+.adviceBox  .adviceList{
+    width:80%;
+    height:400px;
+    overflow: hidden;
+    position: relative;
+    border:2px solid rgba(255,255,255,0.8);
+    border-radius: 40px;
+    left:10%;
+}
+#listBox{
+    position:absolute;
+    width: 88%;
+    margin:0 6%;
+
+}
+#listBox .adviceContent{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#listBox .adviceContent table{
+    display:block;
+    padding:26px 16px;
+    font:normal normal 14px/20px "微软雅黑";
+    border:2px solid rgba(255,255,255,0.9);
+    background-color:rgba(198,250,168,0.2);
+    border-radius: 26px;
+}
+#listBox .adviceContent table td{
+    word-wrap:break-word;
+    word-break: break-all;
+    font:normal normal 16px/16px "微软雅黑";
+    vertical-align: middle;
+    color:#fff;
+}
+#listBox .adviceContent h6{
+    float:right;
+    margin-top:2px;
+    margin-right:14px;
+    font-family: SimSun;
+}
+#listBox .adviceContent h6 span{
+    display:inline-block;
+    font-size:14px;
+    color:rgba(255,255,255,0.8);
+    margin-left:16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-family: SimSun;
+}
+
+.contentBox .contentDiv{
+    display:none;
+    height:0;
+}
+.contentBox .contentDiv.active{
+    display:block;
+}
+
+/*index*/
+.contentBox .viewPart{
+    margin-top:30px;
+    box-shadow: 0 0 20px #000;
+    border-radius:26px;
+    padding-top:30px;
+    padding-bottom:80px;
+    background-color:rgba(26,26,26,0.1);
+}
+.contentBox .viewPart .dayView .advice_hd{
+    border-bottom:2px solid rgba(255,255,255,0.8);
+    padding-bottom:20px;
+    width:95%;
+    margin:0 auto;
+}
+.contentBox .viewPart .dayView .advice_hd img{
+    display:block;
+    width:133px;
+    margin:0 auto;
+}
+.contentBox .viewPart .dayView .viewTabs{
+    position:relative;
+    margin-left:58px;
+    margin-top:36px;
+}
+
+.contentBox .viewPart .dayView .viewTabs li{
+    position:relative;
+    font:normal bold 24px/28px "微软雅黑";
+    color:rgba(255,255,255,0.4);
+    float:left;
+    cursor:pointer;
+    z-index:10;
+}
+.contentBox .viewPart .dayView .viewTabs:before{
+    content:"";
+    position:absolute;
+    height:18px;
+    width:2px;
+    background:rgba(255,192,40,0.6);
+    left:80px;
+    top:5px;
+}
+.contentBox .viewPart .dayView .viewTabs .active{
+    color:#ffc028;
+}
+.contentBox .viewPart .dayView .viewTabs .techTab{
+    margin-right:20px;
+}
+
+.contentBox .viewPart .dayView .viewContents{
+    border:2px solid #ffc028;
+    border-radius: 16px;
+    width:95%;
+    margin:0 auto;
+    padding:28px 34px;
+}
+.contentBox .viewPart .dayView .viewContents .techContent{
+    display:block;
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul{
+    margin-top:-50px;
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li{
+    margin-top:50px;
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox{
+    padding-bottom:20px;
+    border-bottom:2px solid rgba(255,255,255,0.6);
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox>a{
+    font:normal bold 22px/34px "微软雅黑";
+    color:#ffc028;
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox p{
+    margin:20px 0 30px 0;
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox p span{
+    margin-right:30px;
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox p  a{
+    color: #fffc17;
+    font-size:14px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "SimSun";
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox p a:hover{
+    color:rgba(255,187,24,0.6);
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox>span{
+    color:rgba(255,255,255,0.8);
+    margin-right:5%;
+    font-weight: bold;
+    font-family: "SimSun";
+}
+.contentBox .viewPart .dayView .viewContents .techContent ul li .techBox>i{
+    margin-left:-5%;
+    font-weight: bold;
+    color:rgba(255,255,255,0.8);
+    font-family: "SimSun";
+}
+.contentBox .viewPart .dayView .viewContents .techContent .techMore{
+    height: 34px;
+    width: 120px;
+    background-color: #ffc028;
+    border-radius: 24px;
+    color: rgba(255,255,255,0.9);
+    font: normal normal 16px/34px 微软雅黑;
+    margin:0 auto;
+    margin-top:20px;
+    text-align: center;
+    cursor:pointer;
+}
+.contentBox .viewPart .dayView .viewContents .videoContent{
+    display:none;
+}
+#videoItems li{
+    padding-left:0;
+    padding-right:30px;
+
+}
+#videoItems .videoBox{
+    padding:10px 24px 10px 10px;
+    border:4px solid rgba(255,255,255,0.4);
+    margin:12px 0;
+    border-radius:20px;
+    background:rgba(75,94,155,0.4);
+}
+#videoItems .videoBox a{
+    color: #ffc028;
+    font: bold 22px/34px 微软雅黑;
+}
+#videoItems .videoBox p{
+    margin-top:20px;
+}
+#videoItems .videoBox p span{
+    margin-right:5%;
+    color: rgba(255,255,255,0.8);
+    font-weight: bold;
+}
+#videoItems .videoBox p i{
+    color: rgba(255,255,255,0.8);
+    font-weight: bold;
+}
+#videoItems .videoBox img{
+    padding-top:10px;
+    cursor:pointer;
+}
+div[id^="bringins-block"]{
+    z-index:1000;
+}
+
+
+.footer{
+    width:100%;
+    background:#262626;
+}
+.footer p span{
+    font:normal normal 10px/50px "微软雅黑";
+    color:rgba(166,166,166,0.6);
+}
+.footer p a{
+    font:normal normal 12px/50px "微软雅黑";
+    color:rgba(188,188,188,0.6);
+}
+@media (max-width:768px){
+    .header .navbar .navbar-collapse>ul{
+        background:blue;
+        float:none;
+        margin-bottom:20px;
+    }
+    .header .navbar .navbar-collapse>ul>li{
+        float:none;
+        border:none;
+        border-radius: 0;
+        margin-left:0;
+        margin-top:0;
+        width:100%;
+    }
+    .header .navbar .navbar-collapse>ul>li>a{
+        text-align: center;
+    }
+    .header .navbar .navbar-collapse>ul>li:hover{
+        background-color:rgba(255,255,80,0.9);
+    }
+    .msgBoard .addAdvice textarea{
+        font-size:10px;
+    }
+    .mymotto h1{
+        font-size:40px;
+        line-height:40px;
+    }
+    .mottoContent{
+        font-size:35px;
+        line-height:40px;
+    }
+}

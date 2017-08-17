@@ -1,0 +1,49 @@
+.contentBox .contentDiv .personalView .container{
+    border-radius: 26px;
+    padding-top:30px;
+    padding-bottom:20px;
+    box-shadow: 0 0 20px #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contentBox .contentDiv .personalView .container h1{
+    color:#000;
+    font:normal bold 24px/28px SimSun;
+    margin:40px 10% 20px;
+}
+.contentBox .contentDiv .personalView .container ul{
+    border:2px solid rgba(255,255,255,0.9);
+    box-shadow: 0 0 14px #fff;
+    border-radius:26px;
+    padding:0 8%;
+    margin:0 10% 12% 10%;
+    background-color:rgba(255,255,255,0.6);
+}
+.contentBox .contentDiv .personalView .container ul li{
+    margin:25px 0;
+    height:50px;
+
+}
+.contentBox .contentDiv .personalView .container ul li img{
+    margin-right:26px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.8);
+}
+.contentBox .contentDiv .personalView .container ul li a{
+    font:normal bold 16px/18px "微软雅黑";
+}
+.contentBox .contentDiv .personalView .container ul li a:hover{
+    color:#fff;
+}
+
+
+@media (max-width:768px){
+    .contentBox .contentDiv .personalView .container ul li a{
+        display:inline-block;
+        width:52%;
+        vertical-align: middle;
+    }
+    .contentBox .contentDiv .personalView .container h1{
+        margin:18px 0;
+        text-align: center;
+    }
+}
